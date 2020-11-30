@@ -3,11 +3,19 @@
 ### Descrição
 - Código dos desafios propostos no bootcamp de Node.js disponibilizado na plataforma da Digital Innovation One [DIO](https://web.digitalinnovation.one/)
 
+### Antes de continuar
+- É **importante** salientar que se você for *um(a) aluno(a)* da plataforma DIO, então será de melhor aproveitamento revisar o código e comparar com sua solução, ou apenas usar o código-fonte como inspiração para sua criatividade.
+- **Não proibo** o uso do meu código na plataforma, mas isto não agregará para o seu aprendizado, e provavelmente só irá favorecer o crescimento da plataforma DIO, e não o seu.
+- **E por último, mas não menos importante**, independente do que você fizer, peço por gentileza apenas que dê uma ⭐ (Star) neste repositório e/ou siga meu perfil do GitHub como meio de sinalizar que consegui contribuir para seu aprendizado.
 
 ### Execução
 - Os códigos estão preparados tanto para serem executados na plataforma da DIO quanto localmente, exigindo apenas uma pequena refatoração.
 
-- Caso queira executar na plataforma da DIO deverá remover/comentar o array de entrada e onde é atribuido os elementos do array de entrada, e descomentar onde a leitura dos dados é feita através do comando _gets();_ Há comentários indicando onde o uso é local e na DIO.
+- Caso queira executar na plataforma da DIO deverá remover/comentar o array de entrada e onde mais for atribuido os elementos do array de entrada, e descomentar onde a leitura dos dados é feita através do comando _gets();_
+- Para facilitar há comentários indicando onde o uso é local e na DIO.
+
+
+Bons estudos!
 
 
 ### Autor
