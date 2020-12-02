@@ -1,3 +1,5 @@
+ ![](https://visitor-badge.glitch.me/badge?page_id=DIOBootcampNodejs-Desafios.visitor-badge)
+
 <h1 align="center">Bootcamp Node.js da Digital Innovation One</h1>
 
 ### Descrição
