@@ -71,6 +71,8 @@ const inputs = [ //para uso local
 ] //para uso local
 
 const main = (inputs) => { //encapsulado para teste local, remover para uso na DIO
+  // while (true) { //para uso na DIO
+
   let i = 0; //para uso local
 
   let input = '';
@@ -169,6 +171,7 @@ const main = (inputs) => { //encapsulado para teste local, remover para uso na D
     taxToPay[previousRoutes[v]] += taxToPay[v];
   }
   console.log(totalDistance.toString());
+// }//fim do while para uso na DIO
 
   return String(totalDistance); // para uso local (test)
 } // encapsulado para teste local, remover para uso na DIO
