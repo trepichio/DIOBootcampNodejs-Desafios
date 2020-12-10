@@ -1,4 +1,5 @@
- ![](https://visitor-badge.glitch.me/badge?page_id=DIOBootcampNodejs-Desafios.visitor-badge)
+ ![GitHUb Repo Views](https://visitor-badge.glitch.me/badge?page_id=DIOBootcampNodejs-Desafios.visitor-badge) ![GitHub Repo stars](https://badgen.net/github/stars/trepichio/DIOBootcampNodejs-Desafios)
+ ![GitHub top language](https://img.shields.io/github/languages/top/trepichio/DIOBootcampNodejs-Desafios?style=falt)
 
 <h1 align="center">Bootcamp Node.js da Digital Innovation One</h1>
 
