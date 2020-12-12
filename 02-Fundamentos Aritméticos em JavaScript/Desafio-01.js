@@ -30,6 +30,6 @@ for (let i = 0; i < numeros.length; i++) {
 }
 
 let totalPositivos = numeros
-  .filter((n) => n >= 0)
+  .filter((n) => n && n >= 0)
   .length
 console.log(`${totalPositivos} valores positivos`);
