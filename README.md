@@ -32,46 +32,58 @@ Bons estudos!
 |:--------------------------------------------------:|
 | [João Trepichio](https://trepichio.github.io)    |
 
-### Módulos publicados:
+### Módulos publicados
 
 **01-Introdução a Programação com JavaScript (Básico <img src="https://raw.githubusercontent.com/trepichio/DIOBootcampNodejs-Desafios/master/assets/images/level-1.svg" alt="barras que indicam nível básico" width="50" height="50"> )**
-- [Visita na Feira](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/01-Introdu%C3%A7%C3%A3o%20a%20Programa%C3%A7%C3%A3o%20com%20JavaScript/Desafio-01.js)
-- [Multiplicação Simples](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/01-Introdu%C3%A7%C3%A3o%20a%20Programa%C3%A7%C3%A3o%20com%20JavaScript/Desafio-02.js)
-- [Folha de Pagamento](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/01-Introdu%C3%A7%C3%A3o%20a%20Programa%C3%A7%C3%A3o%20com%20JavaScript/Desafio-03.js)
+| Desafio | Tipo
+|--|--
+| [Visita na Feira](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/01-Introdu%C3%A7%C3%A3o%20a%20Programa%C3%A7%C3%A3o%20com%20JavaScript/Desafio-01.js) | Princípios Básicos
+| [Multiplicação Simples](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/01-Introdu%C3%A7%C3%A3o%20a%20Programa%C3%A7%C3%A3o%20com%20JavaScript/Desafio-02.js) | Princípios Básicos
+| [Folha de Pagamento](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/01-Introdu%C3%A7%C3%A3o%20a%20Programa%C3%A7%C3%A3o%20com%20JavaScript/Desafio-03.js) | Princípios Básicos
 
 **02-Fundamentos Aritméticos em JavaScript (Básico <img src="https://raw.githubusercontent.com/trepichio/DIOBootcampNodejs-Desafios/master/assets/images/level-1.svg" alt="barras que indicam nível básico" width="50" height="50"> )**
-- [Quantidade de Números Positivos](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/02-Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/Desafio-01.js)
-- [Exibindo Números Pares](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/02-Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/Desafio-02.js)
-- [Análise de Números](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/02-Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/Desafio-03.js)
-- [Contagem de Cédulas](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/02-Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/Desafio-04.js)
-- [Consumo Médio do Automóvel](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/02-Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/Desafio-05.js)
+| Desafio | Tipo
+|--|--
+| [Quantidade de Números Positivos](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/02-Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/Desafio-01.js) | Princípios Básicos
+| [Exibindo Números Pares](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/02-Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/Desafio-02.js) | Princípios Básicos
+| [Análise de Números](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/02-Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/Desafio-03.js) | Princípios Básicos
+| [Contagem de Cédulas](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/02-Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/Desafio-04.js) | Princípios Básicos
+| [Consumo Médio do Automóvel](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/02-Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/Desafio-05.js) | Princípios Básicos
 
 **03-Ordenação e Filtros em JavaScript (Intermediário <img src="https://raw.githubusercontent.com/trepichio/DIOBootcampNodejs-Desafios/master/assets/images/level-2.svg" alt="barras que indicam nível intermediário" width="50" height="50"> )**
-- [Ordenando Números Pares e Ímpares](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/03-Ordena%C3%A7%C3%A3o%20e%20Filtros%20em%20JavaScript/Desafio-01.js)
-- [Compras no Supermercado](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/03-Ordena%C3%A7%C3%A3o%20e%20Filtros%20em%20JavaScript/Desafio-02.js)
-- [Uniformes de final de ano](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/03-Ordena%C3%A7%C3%A3o%20e%20Filtros%20em%20JavaScript/Desafio-03.js)
-- [Fila do Banco](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/03-Ordena%C3%A7%C3%A3o%20e%20Filtros%20em%20JavaScript/Desafio-04.js)
-- [Gincana no Acampamento](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/03-Ordena%C3%A7%C3%A3o%20e%20Filtros%20em%20JavaScript/Desafio-05.js)
+| Desafio | Tipo
+|--|--
+| [Ordenando Números Pares e Ímpares](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/03-Ordena%C3%A7%C3%A3o%20e%20Filtros%20em%20JavaScript/Desafio-01.js) | Estrutura de Dados
+| [Compras no Supermercado](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/03-Ordena%C3%A7%C3%A3o%20e%20Filtros%20em%20JavaScript/Desafio-02.js) | Estrutura de Dados
+| [Uniformes de final de ano](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/03-Ordena%C3%A7%C3%A3o%20e%20Filtros%20em%20JavaScript/Desafio-03.js) | Estrutura de Dados
+| [Fila do Banco](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/03-Ordena%C3%A7%C3%A3o%20e%20Filtros%20em%20JavaScript/Desafio-04.js) | Estrutura de Dados
+| [Gincana no Acampamento](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/03-Ordena%C3%A7%C3%A3o%20e%20Filtros%20em%20JavaScript/Desafio-05.js) | Estrutura de Dados
 
 **04-Introdução a Busca e Substituição em JavaScript (Intermediário <img src="https://raw.githubusercontent.com/trepichio/DIOBootcampNodejs-Desafios/master/assets/images/level-2.svg" alt="barras que indicam nível intermediário" width="50" height="50"> )**
-- [Ordenação de palavras por tamanho](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/04-Introdu%C3%A7%C3%A3o%20a%20Busca%20e%20Substitui%C3%A7%C3%A3o%20em%20JavaScript/Desafio-01.js)
-- [Encontre a maior substring](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/04-Introdu%C3%A7%C3%A3o%20a%20Busca%20e%20Substitui%C3%A7%C3%A3o%20em%20JavaScript/Desafio-02.js)
-- [Validador de senhas com requisitos](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/04-Introdu%C3%A7%C3%A3o%20a%20Busca%20e%20Substitui%C3%A7%C3%A3o%20em%20JavaScript/Desafio-03.js)
-- [Pedra, Papel, Tesoura, Lagarto e Spock](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/04-Introdu%C3%A7%C3%A3o%20a%20Busca%20e%20Substitui%C3%A7%C3%A3o%20em%20JavaScript/Desafio-04.js)
-- [Atalhos para o Weblogger Brasil](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/04-Introdu%C3%A7%C3%A3o%20a%20Busca%20e%20Substitui%C3%A7%C3%A3o%20em%20JavaScript/Desafio-05.js)
+| Desafio | Tipo
+|--|--
+| [Ordenação de palavras por tamanho](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/04-Introdu%C3%A7%C3%A3o%20a%20Busca%20e%20Substitui%C3%A7%C3%A3o%20em%20JavaScript/Desafio-01.js) | Estrutura de Dados
+| [Encontre a maior substring](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/04-Introdu%C3%A7%C3%A3o%20a%20Busca%20e%20Substitui%C3%A7%C3%A3o%20em%20JavaScript/Desafio-02.js) | Strings
+| [Validador de senhas com requisitos](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/04-Introdu%C3%A7%C3%A3o%20a%20Busca%20e%20Substitui%C3%A7%C3%A3o%20em%20JavaScript/Desafio-03.js) | Strings
+| [Pedra, Papel, Tesoura, Lagarto e Spock](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/04-Introdu%C3%A7%C3%A3o%20a%20Busca%20e%20Substitui%C3%A7%C3%A3o%20em%20JavaScript/Desafio-04.js) | Strings
+| [Atalhos para o Weblogger Brasil](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/04-Introdu%C3%A7%C3%A3o%20a%20Busca%20e%20Substitui%C3%A7%C3%A3o%20em%20JavaScript/Desafio-05.js) | Strings
 
 **05-Solução de Problemas com JavaScript (Avançado <img src="https://raw.githubusercontent.com/trepichio/DIOBootcampNodejs-Desafios/master/assets/images/level-3.svg" alt="barras que indicam nível avançado" width="50" height="50"> )**
-- [Contagem repetida de números](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/05-Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/Desafio-01.js)
-- [Vogais Extraterrestres](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/05-Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/Desafio-02.js)
-- [Melhor amigo do Pablo](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/05-Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/Desafio-03.js)
-- [Entrevista embaraçosa](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/05-Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/Desafio-04.js)
-- [Conjuntos bons ou ruins?](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/05-Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/Desafio-05.js)
-- [Produto e divisão](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/05-Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/Desafio-06.js)
-- [Barras de ouro](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/05-Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/Desafio-07.js)
+| Desafio | Tipo
+|--|--
+| [Contagem repetida de números](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/05-Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/Desafio-01.js) | Ad-Hoc
+| [Vogais Extraterrestres](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/05-Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/Desafio-02.js) | Strings
+| [Melhor amigo do Pablo](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/05-Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/Desafio-03.js) | Estrutura de Dados
+| [Entrevista embaraçosa](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/05-Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/Desafio-04.js) | Strings
+| [Conjuntos bons ou ruins?](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/05-Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/Desafio-05.js) | Strings
+| [Produto e divisão](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/05-Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/Desafio-06.js) | Ad-Hoc
+| [Barras de ouro](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/05-Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/Desafio-07.js) | Grafos
 
 **06-Resolvendo Algoritmos com JavaScript (Avançado <img src="https://raw.githubusercontent.com/trepichio/DIOBootcampNodejs-Desafios/master/assets/images/level-3.svg" alt="barras que indicam nível avançado" width="50" height="50"> )**
-- [Coração das cartas](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/06-Resolvendo%20Algoritmos%20com%20JavaScript/Desafio-01.js)
-- [Abreviando posts do blog](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/06-Resolvendo%20Algoritmos%20com%20JavaScript/Desafio-02.js)
-- [Combinação de strings](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/06-Resolvendo%20Algoritmos%20com%20JavaScript/Desafio-03.js)
-- [Hash Mágico](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/06-Resolvendo%20Algoritmos%20com%20JavaScript/Desafio-04.js)
-- [O tabuleiro secreto](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/06-Resolvendo%20Algoritmos%20com%20JavaScript/Desafio-05.js)
+| Desafio | Tipo
+|--|--
+| [Coração das cartas](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/06-Resolvendo%20Algoritmos%20com%20JavaScript/Desafio-01.js) | Paradigmas
+| [Abreviando posts do blog](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/06-Resolvendo%20Algoritmos%20com%20JavaScript/Desafio-02.js) | Strings
+| [Combinação de strings](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/06-Resolvendo%20Algoritmos%20com%20JavaScript/Desafio-03.js) | Strings
+| [Hash Mágico](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/06-Resolvendo%20Algoritmos%20com%20JavaScript/Desafio-04.js) | Strings
+| [O tabuleiro secreto](https://github.com/trepichio/DIOBootcampNodejs-Desafios/blob/master/06-Resolvendo%20Algoritmos%20com%20JavaScript/Desafio-05.js) | Ad-Hoc
