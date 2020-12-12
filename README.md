@@ -5,18 +5,25 @@
 
 - [Descrição](#descrição)
 - [Antes de continuar](#antes-de-continuar)
+- [AVISOS IMPORTANTES](#avisos-importantes)
 - [Execução](#execução)
 - [Autor](#autor)
 - [Módulos publicados](#módulos-publicados)
 
 ### Descrição
 - Código dos desafios propostos no bootcamp de Node.js disponibilizado na plataforma da Digital Innovation One [DIO](https://web.digitalinnovation.one/)
+- Link para [o meu certificado de conclusão](https://certificates.digitalinnovation.one/48CEDE47)
 
 ### Antes de continuar
 - É **importante** salientar que se você for *um(a) aluno(a)* da plataforma DIO, então será de melhor aproveitamento revisar o código e comparar com sua solução, ou apenas usar o código-fonte como inspiração para sua criatividade.
+- **Leia as seções AVISOS IMPORTANTES e Execução**.
 - **Não proibo** o uso do meu código na plataforma, mas isto não agregará para o seu aprendizado, e provavelmente só irá favorecer o crescimento da plataforma DIO, e não o seu.
 - **E por último, mas não menos importante**, independente do que você fizer, peço por gentileza apenas que dê uma ⭐ (Star) neste repositório e/ou siga meu perfil do GitHub como meio de sinalizar que consegui contribuir para seu aprendizado.
 
+### AVISOS IMPORTANTES
+- Para os *desavisados* e *desatentos*, os desafios deste repositório estão **100% em javascript**.
+- Por favor, **leia os comentários de cada desafio**, pois alguns **podem conter informações adicionais** como, por exemplo, **bugs encontrados nos testes da DIO** na época que o código foi escrito, e, portanto, os mesmos podem ter sido corrigido quando você utilizar o mesmo código. Atente-se às estas informações para que você possa refatorar o código se necessário.
+- Os códigos deste repositório são disponibilizados como são, e apesar de todos terem sidos aprovados quando os escrevi, os mesmos são disponibilizados sem nenhuma garantia. Agradeço a compreensão.
 ### Execução
 - Os códigos estão preparados tanto para serem executados na plataforma da DIO quanto localmente, exigindo apenas uma pequena refatoração.
 
