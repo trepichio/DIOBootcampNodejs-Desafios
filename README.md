@@ -3,6 +3,12 @@
 
 <h1 align="center">Bootcamp Node.js da Digital Innovation One</h1>
 
+- [Descrição](#descrição)
+- [Antes de continuar](#antes-de-continuar)
+- [Execução](#execução)
+- [Autor](#autor)
+- [Módulos publicados](#módulos-publicados)
+
 ### Descrição
 - Código dos desafios propostos no bootcamp de Node.js disponibilizado na plataforma da Digital Innovation One [DIO](https://web.digitalinnovation.one/)
 
