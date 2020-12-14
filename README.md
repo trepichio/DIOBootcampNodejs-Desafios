@@ -23,6 +23,13 @@
 ### AVISOS IMPORTANTES
 - Para os *desavisados* e *desatentos*, os desafios deste repositório estão **100% em javascript**.
 - Por favor, **leia os comentários de cada desafio**, pois alguns **podem conter informações adicionais** como, por exemplo, **bugs encontrados nos testes da DIO** na época que o código foi escrito, e, portanto, os mesmos podem ter sido corrigido quando você utilizar o mesmo código. Atente-se às estas informações para que você possa refatorar o código se necessário.
+- <span style="background-color: yellow">A comunidade me contatou para informar que o código do desafio **Barras de Ouro não passa em apenas um dos testes fechados**. **Tentei contato com a DIO** por e-mail e pelo Discord, **mas obtive nenhuma resposta**. Apesar disso, **uma outra pessoa da comunidade conseguiu uma resposta** - o Luan Fernandes - e ele postou a imagem da resposta que recebeu:
+  ![](https://raw.githubusercontent.com/trepichio/DIOBootcampNodejs-Desafios/master/assets/images/confirmado_bug_barras_de_ouro.png)
+Com isso vocês devem aguardar que a DIO corrija o tal bug.</span>
+
+- Quanto ao desafio **Tabuleiro Secreto**, este certamente deveria passar em todos os testes, mas a comunidade informou que não está, porque retorna o erro *tempo limite de execução excedido*.
+No entanto, o algoritmo rodava, com a entrada mais massiva de dados fornecida pelo site [uDebug](https://www.udebug.com/URI/2467) em *até 10 segundos* na minha máquina, a qual não deve ser mais performática que o servidor da DIO. Refatorei o código e reduzi para entre *3.982 e 5.446 segundos*, e ainda assim o erro persiste. Portanto, concluo que é uma instabilidade na plataforma da DIO, ou um novo bug, ou eles propositadamente alteraram algo no teste específico. O último é o menos provável, na minha opinião.
+
 - Os códigos deste repositório são disponibilizados como são, e apesar de todos terem sidos aprovados quando os escrevi, os mesmos são disponibilizados sem nenhuma garantia. Agradeço a compreensão.
 ### Execução
 - Os códigos estão preparados tanto para serem executados na plataforma da DIO quanto localmente, exigindo apenas uma pequena refatoração.
