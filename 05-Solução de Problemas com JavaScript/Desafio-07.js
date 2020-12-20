@@ -71,7 +71,7 @@ const inputs = [ //para uso local
 ] //para uso local
 
 const main = (inputs) => { //encapsulado para teste local, remover para uso na DIO
-  // while (true) { //para uso na DIO
+  // (() => { //para uso na DIO
 
   let i = 0; //para uso local
 
@@ -86,14 +86,13 @@ const main = (inputs) => { //encapsulado para teste local, remover para uso na D
 
   const [nCities, cargo] = input.match(/\d+/g);
 
-  if (nCities < 2 || nCities > Math.pow(10, 4) || cargo < 1 || cargo > 100) return false;
+  //if (1 * nCities < 2 || 1 * nCities > Math.pow(10, 4) || 1 * cargo < 1 || 1 * cargo > 100) return false; //Essa validação não é aceita na DIO, apesar do enunciado...
 
   // taxToPay = gets().match(/\d+/g); //para uso na DIO
   taxToPay = inputs[i++].match(/\d+/g); //para uso local
 
   if (taxToPay.length > nCities || taxToPay.length < 1) return false;
   taxToPay = taxToPay.map(v => parseInt(v));
-  // taxToPay = taxToPay.map(v => BigInt(v));
 
   if (taxToPay.some(v => (v < 0 || v > 100))) return false;
   taxToPay.unshift(0);
@@ -108,7 +107,7 @@ const main = (inputs) => { //encapsulado para teste local, remover para uso na D
     // let [from, to, distance] = gets().match(/\d+/g); //para uso na DIO
     let [from, to, distance] = inputs[i++].match(/\d+/g) //para uso local
 
-    if ([from, to].some(v => (v < 1 || v > nCities))) return false; //bug na DIO, necessário remover as validações, apesar do enunciado
+    // if ([from, to].some((v => (1 * v < 1 || 1 * v > nCities))) return false; //bug na DIO, necessário remover esta validação
     if (distance < 1 || distance > 100) return false;
 
     routes[from].push({ to: to * 1, distance: distance * 1 });
@@ -162,16 +161,11 @@ const main = (inputs) => { //encapsulado para teste local, remover para uso na D
 
     mover = Math.ceil(parseFloat(Number(taxToPay[v]) / Number(cargo))) * (2 * Number(d));
 
-    if (mover >= Number.MAX_SAFE_INTEGER) {
-      mover = BigInt(Math.ceil(parseFloat(Number(taxToPay[v]) / Number(cargo)))) * BigInt((2 * Number(d)));
-      totalDistance = BigInt(totalDistance);
-    }
-
     totalDistance += mover;
     taxToPay[previousRoutes[v]] += taxToPay[v];
   }
   console.log(totalDistance.toString());
-// }//fim do while para uso na DIO
+// })(); //fim da IIFE para uso na DIO
 
   return String(totalDistance); // para uso local (test)
 } // encapsulado para teste local, remover para uso na DIO
