@@ -70,8 +70,8 @@ const inputs = [ //para uso local
   ''
 ] //para uso local
 
-const main = (inputs) => { //encapsulado para teste local, remover para uso na DIO
-  // (() => { //para uso na DIO
+const main = (inputs) => { //encapsulado para teste local, remover na DIO
+  // (() => { //para uso na DIO, descomentar
 
   let i = 0; //para uso local
 
@@ -86,7 +86,7 @@ const main = (inputs) => { //encapsulado para teste local, remover para uso na D
 
   const [nCities, cargo] = input.match(/\d+/g);
 
-  //if (1 * nCities < 2 || 1 * nCities > Math.pow(10, 4) || 1 * cargo < 1 || 1 * cargo > 100) return false; //Essa validação não é aceita na DIO, apesar do enunciado...
+  //if (1 * nCities < 2 || 1 * nCities > Math.pow(10, 4) || 1 * cargo < 1 || 1 * cargo > 100) return false; //Essa validação não é aceita na DIO, apesar do enunciado...removê-la para uso na DIO
 
   // taxToPay = gets().match(/\d+/g); //para uso na DIO
   taxToPay = inputs[i++].match(/\d+/g); //para uso local
@@ -108,6 +108,7 @@ const main = (inputs) => { //encapsulado para teste local, remover para uso na D
     let [from, to, distance] = inputs[i++].match(/\d+/g) //para uso local
 
     // if ([from, to].some((v => (1 * v < 1 || 1 * v > nCities))) return false; //bug na DIO, necessário remover esta validação
+
     if (distance < 1 || distance > 100) return false;
 
     routes[from].push({ to: to * 1, distance: distance * 1 });
