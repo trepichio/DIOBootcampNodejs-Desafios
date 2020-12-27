@@ -24,11 +24,13 @@ Um espaço em branco deve ser impresso entre duas palavras.
 //Código do desafio:
 const N = 2; //para uso local
 // const N  = parseInt(gets()); //para uso na plataforma DIO
+
 const input = ['One three four mond at midnight', 'one three five eggse'] //para uso local
 
 for (let i = 0; i < N; i++) {
 
   // const input = gets(); //para uso na plataforma DIO
+  // const words = input.split(' ', 50); // para uso na DIO
   const words = input[i].split(' ', 50); // para uso local
 
   // const filteredWords = words.filter(w => w.length <= 50)
@@ -38,7 +40,7 @@ for (let i = 0; i < N; i++) {
     if (a.length > b.length) return -1
     if (a.length < b.length) return 1
     if (b.length === a.length) {
-      console.log(a, b);
+      // console.log(a, b); //para uso local
       return a.localeCompare(b, 'en', { sensitivity: 'base' });
     }
     else return b.length - a.length
