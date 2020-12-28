@@ -36,6 +36,11 @@ No entanto, **graças à refatoração feita pela Dev Camila#6476 (no Discord), 
 - Quanto ao desafio **Tabuleiro Secreto**, este certamente deveria passar em todos os testes, mas a comunidade informou que não está, porque retorna o erro *tempo limite de execução excedido*.
 No entanto, o algoritmo rodava, com a entrada mais massiva de dados fornecida pelo site [uDebug](https://www.udebug.com/URI/2467) em *até 10 segundos* na minha máquina, a qual não deve ser mais performática que o servidor da DIO. Refatorei o código e reduzi para entre *3.982 e 5.446 segundos*, e ainda assim o erro persiste. Portanto, concluo que é uma instabilidade na plataforma da DIO, ou um novo bug, ou eles propositadamente alteraram algo no teste específico. O último é o menos provável, na minha opinião.
 
+- **UPDATE 28/12:** A procura pela solução do desafio do **Tabuleiro Secreto** foi grande, e meu conselho foi categoricamente o mesmo para todos que me pediram uma luz💡:
+   > *Refatorem o algoritmo para reduzir o tempo de execução*
+
+  Como já citei, a solução era antes aceita sem problemas. E havia feito o meu melhor para escrever um código elegante e performático. Mas não foi o suficiente né? Pois então refatorei e **escrevi uma feitiçaria que executa em torno de 2.5 segundos** na pior carga dos testes, **e a entrega foi aprovada novamente!!** So, enjoy! 😎
+
 - Os códigos deste repositório são disponibilizados como são, e apesar de todos terem sidos aprovados quando os escrevi, os mesmos são disponibilizados sem nenhuma garantia. Agradeço a compreensão.
 ### Execução
 - Os códigos estão preparados tanto para serem executados na plataforma da DIO quanto localmente, exigindo apenas uma pequena refatoração.
