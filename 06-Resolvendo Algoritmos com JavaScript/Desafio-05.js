@@ -42,6 +42,7 @@ tem os valores [5,7,7,2,5,2,1,3], tanto o 2, 5 e 7 se repetem duas vezes, então
 */
 
 //Código do desafio:
+// console.time("execução"); //para uso local (início da medição de tempo)
 // const inputs = require('./Desafio-05-input01.js') //para uso local
 const inputs = [ //para uso local
   '2 4',
@@ -82,21 +83,29 @@ const operation = {
 
 const getMostFrequentIn = (values) => {
 
-  let countValues = new Map();
+  let n = values.length;
 
-  values.forEach(v => countValues.set(v, (countValues.get(v) || 0) + 1))
+  if (n == 0) return null;
 
-  const most = Array.from(countValues).sort((a, b) => {
-    const [prevValue, prevCount] = a
-    const [value, count] = b;
+  let map = {}, most = values[0], freqCount = 1;
 
-    if (count < prevCount) return -1
-    if (count > prevCount) return 1
-    if (count === prevCount) {
-      return value >= prevValue ? 1 : -1
+  for (let i = 0; i < n; i++) {
+    let el = values[i];
+
+    if (map[el] == null)
+      map[el] = 1;
+    else
+      map[el]++;
+
+    if (map[el] > freqCount) {
+      most = el;
+      freqCount = map[el];
     }
-  })
-  return most[0][0]
+    else if (map[el] === freqCount) {
+      most = Math.max(most, el)
+    }
+  }
+  return most;
 }
 
 while (true) {
@@ -138,3 +147,4 @@ while (true) {
   }
   console.log(output);
 }
+// console.timeEnd("execução"); //para uso local (fim da medição de tempo)
