@@ -44,8 +44,8 @@ branco entre a lista de inscritos e o nome do vencedor.
 //Código do desafio:
 /**
  * AVISO:
- * Os testes da plataforma da DIO ESTÃO EQUIVOCADOS, pois há discrepâncias entre o enunciado, a entrada provida e saída esperada.
- * Para utilizar este código na plataforma da DIO, foi necessário uma pequena adição (que fiz questão de apontá-la com um comentário no meu fonte) de acordo com a explicação abaixo.
+ * Os testes da plataforma da DIO ESTÃO EQUIVOCADOS, pois há discrepâncias entre o enunciado, a entrada provida e saída esperada. [UPDATE 23/02/21: a DIO corrigiu o Bug]
+ * Para utilizar este código na plataforma da DIO, foi necessário uma pequena adição (que fiz questão de apontá-la com um comentário no meu fonte) de acordo com a explicação abaixo. [UPDATE 23/02/21: não é mais necessária essa adição]
  * 1- Consta o nome 'Abhay' na entrada fornecida por eles, PORÉM NÃO consta na saída esperada dos testes. Portanto, é necessário remover este nome da lista antes de imprimir a saída.
  * 2- No enunciado espera-se a saída "Amigo do Pablo:", mas no exemplo está "Amigo do Habay:". No entanto, os testes realmente validam "Amigo do Pablo:". Isto apenas gera confusão!
  * 3- No exemplo não há o nome do Pablo na lista, mas há na entrada fornecida. Isso não interfere no resultado final, mas poderia caso fosse outro nome maior.
@@ -97,7 +97,7 @@ const [longestName] = [...students.entries()]
   .filter(student => student[1].answer === 'SIM' && student[1].length === maxLength)[0]
 
 const friends = [...students.entries()]
-  .filter(std => /** bug na DIO: Deve-se filtrar o "Abhay" */ std[1].name !== 'Abhay' && std[1].answer === 'SIM')
+  .filter(std => /** [UPDATE 23/02/21]: havia um bug na DIO onde era necessário filtrar o "Abhay", não mais */ /** std[1].name !== 'Abhay' && */ std[1].answer === 'SIM')
   .sort()
 
 const notFriends = [...students.entries()]
