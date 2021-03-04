@@ -50,7 +50,7 @@ let entrada = [];
 
 for (let i = 0; i < linhas; i++) {
   // entrada = [...entrada, gets()]; //para uso na DIO
-  entrada = [...entrada, inputs[i + 1]]; //para uso na DIO
+  entrada = [...entrada, inputs[i + 1]]; //para uso local
 }
 
 entrada = entrada.sort((a, b) => a - b);
